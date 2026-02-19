@@ -735,8 +735,8 @@ export default function StarlinkVisualization() {
         inclinationGroupsRef.current.filter(g => g.enabled).map(g => g.minInc.toString())
       );
 
-      // Update satellite positions only every 100ms (or when dragging, every 200ms)
-      const updateInterval = isDraggingRef.current ? 200 : 100;
+      // Update satellite positions only every 16 ms (or when dragging, every 50ms)
+      const updateInterval = isDraggingRef.current ? 50 : 16;
       let satPositions = cachedSatPositionsRef.current;
 
       if (now - lastSatUpdateRef.current > updateInterval || satPositions.length === 0) {

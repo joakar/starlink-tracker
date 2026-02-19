@@ -1,6 +1,6 @@
 # Starlink Tracker
 
-Pulls live TLE (Two-Line Element) data from SpaceX — the standard format for describing a satellite's orbit — runs SGP4 propagation in the browser, and renders everything on a canvas. You can spin the globe, zoom in, filter by orbital shell, click a satellite to see its trajectory, and crank the simulation up to 1000x speed.
+Pulls live TLE (Two-Line Element) data from SpaceX, the standard format for describing a satellite's orbit, runs SGP4 propagation in the browser, and renders everything on a canvas. You can spin the globe, zoom in, filter by orbital shell, click a satellite to see its trajectory, and crank the simulation up to 1000x speed.
 
 The SpaceX API sometimes takes 5–15 seconds to respond on first load — that's normal.
 
